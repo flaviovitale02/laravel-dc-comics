@@ -1,0 +1,29 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    background-image: url("../img/picsum16.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: red;
+}
+
+nav svg {
+    height: 20px;
+    width: 20px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction:column;
+}
+
+.relative {
+    margin-top: 5rem;
+    display: inline-block;
+}
+
+
